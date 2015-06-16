@@ -1,0 +1,11 @@
+{
+    "name": "wcjs-player-demo",
+    "description": "WebChimera.js Player Demo",
+    "version": "0.0.1",
+    "private": true,
+    "main": "app://host/index.html",
+    "dependencies": {
+        "wcjs-player": "*"
+    },
+    "env": "development"
+}

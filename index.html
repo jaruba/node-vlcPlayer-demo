@@ -1,0 +1,19 @@
+<html>
+<head>
+<style>
+body,html{ width: 100%; height: 100%; padding: 0px; margin:0px }
+#player_wrapper { width: 100%; height: 100% }
+</style>
+</head>
+<body>
+<div id="player_wrapper"></div>
+<script>
+var wcp = require("wcjs-player");
+var player = new wcp("#player_wrapper");
+
+player.addPlayer(function(){
+    this.vlc.play("http://archive.org/download/CartoonClassics/Krazy_Kat_-_Keeping_Up_With_Krazy.mp4");
+});
+</script>
+</body>
+</html>
