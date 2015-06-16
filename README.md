@@ -1,7 +1,7 @@
 # WebChimera.js Player Demo
 **Description:**
 
-Demo for [wcjs-player](https://github.com/jaruba/wcjs-player)) showing WebChimera.js Player playing a single video. ``wcjs-player`` uses [WebChimera.js](https://github.com/RSATom/WebChimera.js) to draw the frames of libVLC to a canvas.
+Demo for [wcjs-player](https://github.com/jaruba/wcjs-player) showing WebChimera.js Player playing a single video. ``wcjs-player`` uses [WebChimera.js](https://github.com/RSATom/WebChimera.js) to draw the frames of libVLC to a canvas.
 
 **Prerequisites:**
 - [WebChimera.js prerequisites](https://github.com/RSATom/WebChimera.js#build-prerequisites)
