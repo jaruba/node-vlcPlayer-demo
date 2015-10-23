@@ -5,7 +5,7 @@
     "private": true,
     "main": "app://host/index.html",
     "dependencies": {
-        "wcjs-player": "*"
+        "wcjs-player": "git://github.com/jaruba/wcjs-player.git#prebuilt-nwjs"
     },
     "env": "development"
 }
