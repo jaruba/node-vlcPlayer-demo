@@ -6,7 +6,7 @@
     "main": "app://host/index.html",
     "dependencies": {
         "wcjs-player": "^6.0.0",
-		"wcjs-prebuilt": "^3.0.0"
+        "wcjs-prebuilt": "^3.0.0"
     },
     "env": "development"
 }
