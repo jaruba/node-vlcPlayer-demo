@@ -9,9 +9,13 @@ body,html{ width: 100%; height: 100%; padding: 0px; margin:0px }
 <div id="player"></div>
 <script>
 var wjs = require("wcjs-player");
-var player = new wjs("#player").addPlayer({ autoplay: true });
+var player = new wjs("#player").addPlayer({
+	autoplay: true,
+	wcjs: require('wcjs-prebuilt')
+});
 
 player.addPlaylist("http://archive.org/download/CartoonClassics/Krazy_Kat_-_Keeping_Up_With_Krazy.mp4");
 </script>
 </body>
 </html>
+
